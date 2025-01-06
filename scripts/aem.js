@@ -11,8 +11,6 @@
  */
 
 /* eslint-env browser */
-import '@adobe/universal-editor-cors';
-
 function sampleRUM(checkpoint, data) {
   // eslint-disable-next-line max-len
   const timeShift = () => (window.performance ? window.performance.now() : Date.now() - window.hlx.rum.firstReadTime);
